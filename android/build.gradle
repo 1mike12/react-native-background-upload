@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        kotlinVersion = rootProject.ext.has('kotlinVersion') ? rootProject.ext.get('kotlinVersion') : project.properties['RNSAC_kotlinVersion']
+        kotlinVersion = '1.6.20'
         buildToolsVersion = '34.0.8'
         compileSdkVersion = 34
         targetSdkVersion = 34
